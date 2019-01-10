@@ -1,2 +1,3 @@
 # jNode
-node samples
+node sample projects
+1. node with mongo setup
