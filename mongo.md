@@ -1,6 +1,6 @@
 1. mongo path:
 -----------
-C:\Program Files\MongoDB\Server\4.0\bin
+> C:\Program Files\MongoDB\Server\4.0\bin
 
 2. mongo DB Migration:
 ----------------------
