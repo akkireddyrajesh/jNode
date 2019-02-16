@@ -6,11 +6,6 @@
  </ol>
 </ul>
 
- 1. mongo path
--------------
-
-> C:\Program Files\MongoDB\Server\4.0\bin
-
 <h2>mongo DB Migration</h2>
 <p>download/export Db into folder</p>
 <ul>
