@@ -14,6 +14,7 @@
 </ul>
 <p>import/Restore Db into Another PC/some where</p>
 <ul>
- <ol>mongorestore -d database_name directory_backup_where_mongodb_tobe_restored</ol>
- <ol>Ref Link https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb </ol>
+ <ol>mongorestore -d database_name directory_backup_where_mongodb_tobe_restored. 
+  <a href="https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb">reference</a>
+ </ol>
 </ul>
