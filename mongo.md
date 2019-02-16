@@ -1,9 +1,10 @@
-1. mongo path:
+1. mongo path
 -------------
+
 > C:\Program Files\MongoDB\Server\4.0\bin
 
-2. mongo DB Migration:
-----------------------
+2. mongo DB Migration
+---------------------
 
 A. download/export Db into folder
 ---------------------------------
