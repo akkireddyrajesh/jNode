@@ -5,7 +5,7 @@
 2. mongo DB Migration:
 ----------------------
 A. download/export Db into folder
- > a. mongodump -d JadeDB -o C:\Users\srinivasnl\Downloads
+ > a. mongodump -d JadeDB -o C:\Users\srinivasnl\Downloads <br/>
  > b. mongodump -d JadeDB -o C:\Users\santoo\Downloads
 B. import/Restore Db into Another PC/some where
  > mongorestore -d database_name directory_backup_where_mongodb_tobe_restored
