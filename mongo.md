@@ -1,8 +1,8 @@
+<h2>mongo path</h2>
 
 <ul>
  <ol>
-  <h2>mongo path</h2>
-  <p>> C:\Program Files\MongoDB\Server\4.0\bin</p>
+   C:\Program Files\MongoDB\Server\4.0\bin
  </ol>
 </ul>
  1. mongo path
