@@ -5,20 +5,20 @@
    C:\Program Files\MongoDB\Server\4.0\bin
  </ol>
 </ul>
+
  1. mongo path
 -------------
 
 > C:\Program Files\MongoDB\Server\4.0\bin
 
-2. mongo DB Migration
----------------------
-
-A. download/export Db into folder
----------------------------------
- > a. mongodump -d JadeDB -o C:\Users\srinivasnl\Downloads 
- > b. mongodump -d JadeDB -o C:\Users\santoo\Downloads <br/>
- 
-B. import/Restore Db into Another PC/some where
------------------------------------------------
- > mongorestore -d database_name directory_backup_where_mongodb_tobe_restored <br/>
- > Ref Link https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb 
+<h2>mongo DB Migration</h2>
+<p>download/export Db into folder</p>
+<ul>
+ <ol>mongodump -d JadeDB -o C:\Users\srinivasnl\Downloads </ol>
+ <ol>mongodump -d JadeDB -o C:\Users\santoo\Downloads </ol>
+</ul>
+<p>import/Restore Db into Another PC/some where</p>
+<ul>
+ <ol>mongorestore -d database_name directory_backup_where_mongodb_tobe_restored</ol>
+ <ol>Ref Link https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb </ol>
+</ul>
