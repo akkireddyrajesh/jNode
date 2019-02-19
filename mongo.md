@@ -17,4 +17,5 @@
  <ol>mongorestore -d database_name directory_backup_where_mongodb_tobe_restored. 
   <a href="https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb">reference</a>
  </ol>
+ <ol>mongorestore -d JadeDB C:\Users\srinivasnl\Downloads\JadeDB</ol>
 </ul>
