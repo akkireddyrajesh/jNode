@@ -24,9 +24,9 @@
 
 <ul>
  <ol>
-   go to C:\Program Files\MongoDB\Server\4.0\bin
+   go to > C:\Program Files\MongoDB\Server\4.0\bin
  </ol>
   <ol>
-   mongo JadeDB --eval "db.dropDatabase()"
+   > mongo JadeDB --eval "db.dropDatabase()"
  </ol>
 </ul>
