@@ -19,3 +19,14 @@
  </ol>
  <ol>mongorestore -d JadeDB C:\Users\srinivasnl\Downloads\JadeDB</ol>
 </ul>
+
+<h2>Clear Db </h2>
+
+<ul>
+ <ol>
+   go to C:\Program Files\MongoDB\Server\4.0\bin
+ </ol>
+  <ol>
+   mongo JadeDB --eval "db.dropDatabase()"
+ </ol>
+</ul>
