@@ -18,6 +18,7 @@
   <a href="https://stackoverflow.com/questions/11255630/how-to-export-all-collection-in-mongodb">reference</a>
  </ol>
  <ol>mongorestore -d JadeDB C:\Users\srinivasnl\Downloads\JadeDB</ol>
+ <ol>mongorestore -d JaydeDB C:\Users\santoo\Downloads\JadeDB</ol>
 </ul>
 
 <h2>Clear Db </h2>
