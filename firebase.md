@@ -9,4 +9,8 @@
     <td>Angular firebase with cloud store</td>
     <td>https://medium.com/factory-mind/angular-cloud-firestore-step-by-step-bootstrap-tutorial-ecb96db8d071</td>
   </tr>
+  <tr>
+    <td>Angular2 + firebase </td>
+    <td>https://medium.com/@coderonfleek/firebase-firestore-and-angular-todo-list-application-d0fe760f6bca</td>
+  </tr>
 </table>
