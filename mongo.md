@@ -30,4 +30,7 @@
   <ol>
    > mongo JadeDB --eval "db.dropDatabase()"
  </ol>
+ <ol>
+  > clear index/unique 'db.users.dropIndex("email")'
+ </ol>
 </ul>
