@@ -32,5 +32,6 @@
  </ol>
  <ol>
   > clear index/unique 'db.users.dropIndex("email")'
+  >ex: db.models.dropIndex("model_name_1")
  </ol>
 </ul>
