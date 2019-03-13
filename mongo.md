@@ -33,5 +33,6 @@
  <ol>
   > clear index/unique 'db.users.dropIndex("email")'
   >ex: db.models.dropIndex("model_name_1")
+  >ref: <a href="https://stackoverflow.com/questions/34899151/mongoose-unique-validation-error-even-though-unique-constraint-is-not-there">here</a>
  </ol>
 </ul>
