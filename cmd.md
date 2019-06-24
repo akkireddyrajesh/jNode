@@ -14,7 +14,6 @@
         <ul>
           <li>step 01: > netstat -a -o -n</li>
           <li>step 02:  >  taskkill /F /PID <PID No of the selected PORT></li>
-
         </ul>  
       </li>
     </ul>
