@@ -1,4 +1,4 @@
 ## import .json files as modules in typescript
-  ``js
+  in tsonfig.json -> compilerOptions add below property : 
           "resolveJsonModule": true,
   ``
