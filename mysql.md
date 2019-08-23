@@ -1,10 +1,11 @@
 Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.html
 
-## STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
-##---------------------------------------------------------
+##STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
+
 1. check Default engine set to INNODB in my.ini file.
 
-##2. install plug-in keyring :
+2. install plug-in keyring :
+
     (A) my.ini file :
 	add below code in my.ini file.
 
@@ -15,7 +16,6 @@ Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.ht
 	NOTE: create folder "keyring" in the above path and give read and write permissions for system.
 
 3. RESTART the MySQL Server [if it is on/running].
-
  
 4. To verify that a keyring plugin is active, use the SHOW PLUGINS statement or query the INFORMATION_SCHEMA.PLUGINS table. 
 
@@ -27,19 +27,20 @@ Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.ht
 		+--------------+---------------+
 	mysql> SHOW VARIABLES LIKE 'keyring%';
 
-B. Enabling File-Per-Table Tablespace Encryption
+5. Enabling File-Per-Table Tablespace Encryption
 
 	(i) mysql> CREATE TABLE t1 (c1 INT) ENCRYPTION='Y';
 	(ii) mysql> ALTER TABLE t1 ENCRYPTION='Y';
 	if you want un-encrypt or decrypt
 	(iii) mysql> ALTER TABLE t1 ENCRYPTION='N';
 
-C. Master Key Rotation
+6. Master Key Rotation
 
 	mysql> ALTER INSTANCE ROTATE INNODB MASTER KEY;
 
-D. Identifying Encrypted Tablespaces
-	(i) When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS column of INFORMATION_SCHEMA.TABLES.
+7. Identifying Encrypted Tablespaces
+
+	(i) When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS 		column of INFORMATION_SCHEMA.TABLES.
 
 	mysql> SELECT TABLE_SCHEMA, TABLE_NAME, CREATE_OPTIONS FROM INFORMATION_SCHEMA.TABLES WHERE CREATE_OPTIONS LIKE '%ENCRYPTION%';
 		+--------------+------------+----------------+
@@ -48,7 +49,7 @@ D. Identifying Encrypted Tablespaces
 		| test         | t1         | ENCRYPTION="Y" |
 		+--------------+------------+----------------+
 
-	(ii) Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular schema and table.
+	(ii) Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular 		schema and table.
 	
 	mysql> SELECT * FROM INFORMATION_SCHEMA.INNODB_TABLESPACES;
 		+-------+---------+------------+
