@@ -4,7 +4,7 @@
 
 1. check Default engine set to INNODB in my.ini file.
 
-1. install plug-in keyring :
+1. install plug-in keyring
 
     	Add below code in my.ini file.
 
