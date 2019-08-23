@@ -48,7 +48,7 @@
 
 1. Identifying Encrypted Tablespaces
 	
-	(i) When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS column of INFORMATION_SCHEMA.TABLES.
+	1 When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS column of INFORMATION_SCHEMA.TABLES.
 
 	
 	```mysql
@@ -60,7 +60,7 @@
 		+--------------+------------+----------------+
 	```
 
-	(ii) Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular schema and table.
+	1 Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular schema and table.
 
 	
 	```mysql	
@@ -72,7 +72,7 @@
 		+-------+---------+------------+
 	```
 
-	(iii) To find normally encrypted tables, use the following query:
+	1 To find normally encrypted tables, use the following query:
 	
 
 	```mysql
