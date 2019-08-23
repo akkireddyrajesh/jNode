@@ -1,12 +1,12 @@
-### Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.html
+#### Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.html
 
-# STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
+## STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
 
 1. check Default engine set to INNODB in my.ini file.
 
 1. install plug-in keyring :
 
-    (A) my.ini file :
+    	my.ini file :
 	add below code in my.ini file.
 
 	```mysql
@@ -34,10 +34,9 @@
 1. Enabling File-Per-Table Tablespace Encryption
 
 	```mysql
-	(i) mysql> CREATE TABLE t1 (c1 INT) ENCRYPTION='Y';
-	(ii) mysql> ALTER TABLE t1 ENCRYPTION='Y';
-	if you want un-encrypt or decrypt
-	(iii) mysql> ALTER TABLE t1 ENCRYPTION='N';
+	mysql> CREATE TABLE t1 (c1 INT) ENCRYPTION='Y';
+	mysql> ALTER TABLE t1 ENCRYPTION='Y';
+	mysql> ALTER TABLE t1 ENCRYPTION='N'; //if you want un-encrypt or decrypt
 	```
 
 1. Master Key Rotation
