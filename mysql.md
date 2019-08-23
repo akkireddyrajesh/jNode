@@ -1,6 +1,6 @@
 Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.html
 
-##STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
+#STEPS TO INITIALIZE DATA-AT-REST TABLE-SPACE-ENCRYPTION :
 
 	1. check Default engine set to INNODB in my.ini file.
 
