@@ -6,8 +6,7 @@
 
 1. install plug-in keyring :
 
-    	my.ini file :
-	add below code in my.ini file.
+    	add below code in my.ini file.
 
 	```mysql
       	[mysqld]
