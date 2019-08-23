@@ -40,7 +40,7 @@ Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.ht
 
 	7. Identifying Encrypted Tablespaces
 
-		(i) When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS 		column of INFORMATION_SCHEMA.TABLES.
+		(i) When the ENCRYPTION option is specified in a CREATE TABLE or ALTER TABLE statement, it is recorded in the CREATE_OPTIONS column of INFORMATION_SCHEMA.TABLES.
 
 		mysql> SELECT TABLE_SCHEMA, TABLE_NAME, CREATE_OPTIONS FROM INFORMATION_SCHEMA.TABLES WHERE CREATE_OPTIONS LIKE '%ENCRYPTION%';
 			+--------------+------------+----------------+
@@ -49,7 +49,7 @@ Ref URL: https://dev.mysql.com/doc/refman/5.7/en/innodb-tablespace-encryption.ht
 			| test         | t1         | ENCRYPTION="Y" |
 			+--------------+------------+----------------+
 
-		(ii) Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular 		schema and table.
+		(ii) Query INFORMATION_SCHEMA.INNODB_SYS_TABLESPACES to retrieve information about the tablespace associated with a particular schema and table.
 
 		mysql> SELECT * FROM INFORMATION_SCHEMA.INNODB_TABLESPACES;
 			+-------+---------+------------+
