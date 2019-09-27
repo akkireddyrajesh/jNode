@@ -5,7 +5,7 @@
     <ul>
       <li><p>Method: 01</p>
         <ul>
-          <li>step 01:  > netstat -ano | findstr :yourPortNumber <b>(OR)</b> </li>
+          <li>step 01:  > netstat -ano | findstr : 8603 </li>
           <li>step 02:  > taskkill /PID typeyourPIDhere /F <b>OR</b> taskkill /F /PID 2600</li>
           <li>For Ref: <a href="https://stackoverflow.com/questions/39632667/how-to-kill-the-process-currently-using-a-port-on-localhost-               in-          windows">click here </a></li>
         </ul>  
