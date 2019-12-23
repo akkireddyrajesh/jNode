@@ -9,7 +9,7 @@
 
 <h3>Create Git branch with current changes</h3>
 <ul>
-  <li>> git checkout -b <topic/newbranch> </li>
+  <li>> git checkout -b topic/newbranch </li>
   <li>creating new branch from current branch with new changes </li>
   <li>reference <a href="https://stackoverflow.com/questions/3899627/create-git-branch-with-current-changes"> click</a></li>
 </ul>
